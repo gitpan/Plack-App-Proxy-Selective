@@ -11,9 +11,8 @@ requires 'Path::Class';
 tests 't/*.t';
 author_tests 'xt';
 
-test_requires 'Test::More';
+test_requires 'Test::More' => '0.94';
 test_requires 'Test::Most';
 auto_set_repository;
 auto_include;
-auto_install;
 WriteAll;
