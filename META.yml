@@ -24,7 +24,8 @@ requires:
   Plack::App::Proxy: 0
   Plack::Component: 0
   Plack::Util::Accessor: 0
+  Regexp::Common: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/zentooo/p5-plack-app-proxy-selective.git
-version: 0.04
+version: 0.05
